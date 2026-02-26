@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import pckupLogo from './assets/pckup-logo.png';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Menu, X, ChevronDown, ArrowUpRight, Zap, Shield, Layers, Code, Globe } from 'lucide-react';
 
@@ -23,7 +24,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-12">
           <a href="#" className="text-2xl font-bold tracking-tighter text-white">
-            eco
+            <img src={pckupLogo} alt="Pckup Logo" className="h-8" />
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
             <a href="#" className="hover:text-white transition-colors">About</a>
@@ -121,9 +122,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="text-6xl md:text-8xl lg:text-[110px] font-medium tracking-tighter leading-[0.9] text-white mb-8"
+          className="text-6xl md:text-8xl lg:text-[110px] font-medium tracking-tighter leading-[0.9] text-white mb-8 font-display"
         >
-          Smarter Infrastructure,<br />Smarter Money
+          Logistics moving at the speed of now.
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -321,9 +322,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-24">
           <div className="col-span-1 md:col-span-2">
-            <a href="#" className="text-3xl font-bold tracking-tighter text-white mb-6 block">
-              eco
-            </a>
+            <img src={pckupLogo} alt="Pckup Logo" className="h-10" />
             <p className="text-gray-400 max-w-sm mb-8">
               Stay updated with Eco
             </p>
