@@ -9,7 +9,7 @@ export default defineConfig(({mode}) => {
     plugins: [react()],
     css: {
       postcss: {
-        plugins: [tailwindcss()],
+        plugins: [tailwindcss('./tailwind.config.js')],
       },
     },
     define: {
