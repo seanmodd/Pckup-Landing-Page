@@ -17,9 +17,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black/80 backdrop-blur-md border-b border-white/10 py-4' : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md border-b border-white/10 py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-12">
@@ -107,11 +106,11 @@ const Navbar = () => {
 const Hero = () => {
   return (
     <section className="relative pt-48 pb-32 px-6 overflow-hidden min-h-[90vh] flex items-center justify-center">
-      <video 
-        autoPlay 
-        loop 
-        muted 
-        playsInline 
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-80"
       >
         <source src="https://r2.vidzflow.com/source/88fe23d4-f5b2-4b0e-ac00-943c1a88815d.mp4" type="video/mp4" />
@@ -145,7 +144,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="text-xl md:text-3xl text-gray-400 max-w-4xl mx-auto leading-tight font-light"
         >
-          Eco ensures superior execution for any stablecoin product or strategy. We connect leading stablecoin ecosystems with unparalleled speed, capital efficiency and control.
+          Pckup ensures superior execution for any stablecoin product or strategy. We connect leading stablecoin ecosystems with unparalleled speed, capital efficiency and control.
         </motion.p>
       </div>
     </section>
@@ -230,14 +229,14 @@ const Products = () => {
   );
 };
 
-const BuildWithEco = () => {
+const BuildWithPckup = () => {
   return (
     <section className="py-32 px-6 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-6xl font-medium tracking-tighter text-white mb-16">
-          Build with Eco
+          Build with Pckup
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors">
             <Zap className="w-8 h-8 text-white mb-6" />
@@ -324,12 +323,12 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <img src={pckupLogo} alt="Pckup Logo" className="h-10" />
             <p className="text-gray-400 max-w-sm mb-8">
-              Stay updated with Eco
+              Stay updated with Pckup
             </p>
             <div className="flex gap-2">
-              <input 
-                type="email" 
-                placeholder="Email address" 
+              <input
+                type="email"
+                placeholder="Email address"
                 className="bg-[#111] border border-white/10 rounded-lg px-4 py-2 text-white outline-none focus:border-white/30 w-full max-w-xs"
               />
               <button className="bg-white text-black px-4 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors">
@@ -337,7 +336,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-white font-medium mb-6">Company</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
@@ -346,7 +345,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition-colors">Brand</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-white font-medium mb-6">Social</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
@@ -358,10 +357,10 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/10 text-sm text-gray-500">
           <div className="mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Eco. All rights reserved.
+            &copy; {new Date().getFullYear()} Pckup. All rights reserved.
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
@@ -380,7 +379,7 @@ export default function App() {
       <main>
         <Hero />
         <Products />
-        <BuildWithEco />
+        <BuildWithPckup />
         <Partners />
         <CTA />
       </main>
