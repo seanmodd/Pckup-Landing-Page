@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import pckupLogo from './assets/pckup-logo.png';
+import pckupLogo from './assets/icon-orange.svg';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Menu, X, ChevronDown, ArrowUpRight, Zap, Shield, Layers, Code, Globe } from 'lucide-react';
 
