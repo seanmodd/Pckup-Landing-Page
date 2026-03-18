@@ -15,13 +15,13 @@ A modern, dark-themed landing page for Pckup, the ghost fleet powering next-gen 
 
 
 ### Hero Section
-![Hero Section](./screenshots/hero.png)
+![Hero Section](./screenshots/heroo.png)
 
 ### Products & Infrastructure
-![Products Section](./screenshots/products.png)
+![Products Section](./screenshots/productss.png)
 
 ### Value Propositions
-![Value Props](./screenshots/value-props.png)
+![Value Props](./screenshots/value-propss.png)
 
 
 ## 🛠️ Tech Stack
