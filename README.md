@@ -13,9 +13,7 @@ A modern, dark-themed landing page for Pckup, the ghost fleet powering next-gen 
 
 ## 📸 Screenshots
 
-*(Screenshots coming soon!)*
 
-<!-- To add screenshots, upload them to the /screenshots folder and uncomment the lines below:
 ### Hero Section
 ![Hero Section](./screenshots/hero.png)
 
@@ -24,7 +22,7 @@ A modern, dark-themed landing page for Pckup, the ghost fleet powering next-gen 
 
 ### Value Propositions
 ![Value Props](./screenshots/value-props.png)
--->
+
 
 ## 🛠️ Tech Stack
 
