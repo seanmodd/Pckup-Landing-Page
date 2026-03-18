@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Pckup Landing Page
 
-# Run and deploy your AI Studio app
+A modern, dark-themed landing page for Pckup, the ghost fleet powering next-gen commerce. Built with React, Tailwind CSS, and Framer Motion.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/6924c8cc-b9be-46cd-913a-02818a18cdb2
+- **Enterprise API:** Integrate 500k+ drivers into your checkout.
+- **Ghost Fleet:** White-labeled delivery for retail & food.
+- **Predictive Dispatch:** AI-driven routing for maximum margin.
+- **Elastic Scaling:** Capacity that scales with demand spikes.
+- **Unit Economic Optimization:** Algorithmic batching and dynamic pricing.
+- **Programmatic Logistics:** Webhooks, real-time telemetry, and automated SLA management.
 
-## Run Locally
+## 📸 Screenshots
 
-**Prerequisites:**  Node.js
+### Hero Section
+![Hero Section](./screenshots/hero.png)
 
+### Products & Infrastructure
+![Products Section](./screenshots/products.png)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Value Propositions
+![Value Props](./screenshots/value-props.png)
+
+*(Note: Add your actual screenshots to a `screenshots` folder in the root directory and update the paths above if necessary)*
+
+## 🛠️ Tech Stack
+
+- **Framework:** React 18
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Build Tool:** Vite
+
+## 🏃‍♂️ Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```

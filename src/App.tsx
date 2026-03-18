@@ -32,20 +32,20 @@ const Navbar = () => {
               Solutions <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
               <div className="absolute top-full left-0 mt-4 w-64 bg-[#111] border border-white/10 rounded-xl p-2 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all">
                 <div className="p-3 hover:bg-white/5 rounded-lg transition-colors">
-                  <div className="text-white font-medium mb-1">Seamless Money Movement</div>
-                  <div className="text-xs text-gray-400">Instant stablecoin bridging/swapping</div>
+                  <div className="text-white font-medium mb-1">Enterprise API</div>
+                  <div className="text-xs text-gray-400">Integrate 500k+ drivers into your checkout</div>
                 </div>
                 <div className="p-3 hover:bg-white/5 rounded-lg transition-colors">
-                  <div className="text-white font-medium mb-1">Simplified Stablecoin UX</div>
-                  <div className="text-xs text-gray-400">Global balances, smart account integration</div>
+                  <div className="text-white font-medium mb-1">Ghost Fleet</div>
+                  <div className="text-xs text-gray-400">White-labeled delivery for retail & food</div>
                 </div>
                 <div className="p-3 hover:bg-white/5 rounded-lg transition-colors">
-                  <div className="text-white font-medium mb-1">Institutional Grade Execution</div>
-                  <div className="text-xs text-gray-400">For maximum comfort & visibility</div>
+                  <div className="text-white font-medium mb-1">Predictive Dispatch</div>
+                  <div className="text-xs text-gray-400">AI-driven routing for maximum margin</div>
                 </div>
                 <div className="p-3 hover:bg-white/5 rounded-lg transition-colors">
-                  <div className="text-white font-medium mb-1">Liquidity & Yield</div>
-                  <div className="text-xs text-gray-400">Source, or provide just-in-time liquidity</div>
+                  <div className="text-white font-medium mb-1">Elastic Scaling</div>
+                  <div className="text-xs text-gray-400">Capacity that scales with demand spikes</div>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
             href="#"
             className="px-5 py-2.5 bg-white text-black text-sm font-semibold rounded-full hover:bg-gray-200 transition-colors flex items-center gap-2"
           >
-            Bridge with Portal <ArrowUpRight className="w-4 h-4" />
+            Deploy Fleet <ArrowUpRight className="w-4 h-4" />
           </a>
         </div>
         <button
@@ -94,7 +94,7 @@ const Navbar = () => {
               href="#"
               className="px-5 py-3 bg-white text-black text-center font-semibold rounded-full mt-4"
             >
-              Bridge with Portal
+              Deploy Fleet
             </a>
           </motion.div>
         )}
@@ -135,7 +135,7 @@ const Hero = () => {
             href="#"
             className="px-8 py-4 bg-white text-black text-lg font-semibold rounded-full hover:scale-105 transition-transform flex items-center gap-2"
           >
-            Bridge with Portal <ArrowUpRight className="w-5 h-5" />
+            Access the API <ArrowUpRight className="w-5 h-5" />
           </a>
         </motion.div>
         <motion.p
@@ -144,7 +144,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="text-xl md:text-3xl text-gray-400 max-w-4xl mx-auto leading-tight font-light"
         >
-          Pckup ensures superior execution for any stablecoin product or strategy. We connect leading stablecoin ecosystems with unparalleled speed, capital efficiency and control.
+          Pckup provides instant access to over 500,000 native drivers. We transform fixed logistics costs into a programmable, infinitely scalable API. Zero CapEx. Sub-hour fulfillment.
         </motion.p>
       </div>
     </section>
@@ -157,7 +157,7 @@ const Products = () => {
       <div className="max-w-7xl mx-auto">
         <div className="mb-24">
           <h2 className="text-4xl md:text-6xl font-medium tracking-tighter text-white mb-4">
-            Three products.<br />One endgame.
+            The infrastructure for<br />instant commerce.
           </h2>
         </div>
 
@@ -170,16 +170,16 @@ const Products = () => {
             className="group relative bg-[#111] border border-white/10 rounded-3xl p-8 hover:bg-[#151515] transition-colors overflow-hidden flex flex-col h-full"
           >
             <div className="text-sm font-mono text-gray-500 mb-8">01</div>
-            <h3 className="text-3xl font-medium text-white mb-4">Routes</h3>
+            <h3 className="text-3xl font-medium text-white mb-4">Enterprise API</h3>
             <p className="text-gray-400 mb-12 flex-grow">
-              The fastest stablecoin movement across chains. Permissionless to integrate with Routes SDK.
+              A single integration to route, dispatch, and track deliveries across a decentralized network of 500,000+ drivers. Built for 99.99% uptime.
             </p>
             <div className="flex items-center gap-4 mt-auto">
               <a href="#" className="px-5 py-2.5 bg-white/10 text-white rounded-full text-sm font-medium hover:bg-white/20 transition-colors">
-                Integrate
+                View Docs
               </a>
               <a href="#" className="px-5 py-2.5 bg-white text-black rounded-full text-sm font-medium hover:bg-gray-200 transition-colors">
-                Try Portal
+                Get API Key
               </a>
             </div>
           </motion.div>
@@ -193,13 +193,13 @@ const Products = () => {
             className="group relative bg-[#111] border border-white/10 rounded-3xl p-8 hover:bg-[#151515] transition-colors overflow-hidden flex flex-col h-full"
           >
             <div className="text-sm font-mono text-gray-500 mb-8">02</div>
-            <h3 className="text-3xl font-medium text-white mb-4">Accounts</h3>
+            <h3 className="text-3xl font-medium text-white mb-4">Ghost Fleet</h3>
             <p className="text-gray-400 mb-12 flex-grow">
-              Enable a unified stablecoin balance with one-click actions across any connected chain.
+              The ghost fleet powering next-gen commerce. Your brand, our logistics. White-label our driver network to offer sub-hour delivery without the overhead of managing a W-2 workforce.
             </p>
             <div className="flex items-center gap-4 mt-auto">
               <a href="#" className="px-5 py-2.5 bg-white/10 text-white rounded-full text-sm font-medium hover:bg-white/20 transition-colors">
-                Coming Soon
+                Explore Fleet
               </a>
             </div>
           </motion.div>
@@ -213,13 +213,13 @@ const Products = () => {
             className="group relative bg-[#111] border border-white/10 rounded-3xl p-8 hover:bg-[#151515] transition-colors overflow-hidden flex flex-col h-full"
           >
             <div className="text-sm font-mono text-gray-500 mb-8">03</div>
-            <h3 className="text-3xl font-medium text-white mb-4">Crowd Liquidity</h3>
+            <h3 className="text-3xl font-medium text-white mb-4">Predictive Dispatch</h3>
             <p className="text-gray-400 mb-12 flex-grow">
-              A protocol for chains, bridges, and DeFi to share stablecoin liquidity in a way that improves onchain UX for everyone. Participating is as easy as holding stablecoins.
+              Proprietary routing algorithms that batch orders, predict demand density, and optimize unit economics at scale. Turn logistics into a profit center.
             </p>
             <div className="flex items-center gap-4 mt-auto">
               <a href="#" className="px-5 py-2.5 bg-white/10 text-white rounded-full text-sm font-medium hover:bg-white/20 transition-colors flex items-center gap-2">
-                Learn More <ArrowRight className="w-4 h-4" />
+                See the Math <ArrowRight className="w-4 h-4" />
               </a>
             </div>
           </motion.div>
@@ -238,24 +238,27 @@ const BuildWithPckup = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors">
+          <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors flex flex-col">
             <Zap className="w-8 h-8 text-white mb-6" />
-            <h3 className="text-xl font-medium text-white mb-4">Real-time money movement</h3>
-            <a href="#" className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium transition-colors">
+            <h3 className="text-xl font-medium text-white mb-4">Elastic Fleet Scaling</h3>
+            <p className="text-gray-400 text-sm mb-6">Scale from 10 to 10,000 deliveries a day instantly. No hiring, no vehicle leases, no fixed overhead.</p>
+            <a href="#" className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium transition-colors mt-auto">
               Learn more <ArrowRight className="w-4 h-4" />
             </a>
           </div>
-          <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors">
+          <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors flex flex-col">
             <Layers className="w-8 h-8 text-white mb-6" />
-            <h3 className="text-xl font-medium text-white mb-4">Simplify onchain UX</h3>
-            <a href="#" className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium transition-colors">
+            <h3 className="text-xl font-medium text-white mb-4">Unit Economic Optimization</h3>
+            <p className="text-gray-400 text-sm mb-6">Algorithmic batching and dynamic pricing ensure positive margins on every route dispatched.</p>
+            <a href="#" className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium transition-colors mt-auto">
               Learn more <ArrowRight className="w-4 h-4" />
             </a>
           </div>
-          <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors">
+          <div className="p-8 rounded-3xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-white/20 transition-colors flex flex-col">
             <Code className="w-8 h-8 text-white mb-6" />
-            <h3 className="text-xl font-medium text-white mb-4">Program perfect execution</h3>
-            <a href="#" className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium transition-colors">
+            <h3 className="text-xl font-medium text-white mb-4">Programmatic Logistics</h3>
+            <p className="text-gray-400 text-sm mb-6">Webhooks, real-time telemetry, and automated SLA management built directly for developers.</p>
+            <a href="#" className="text-gray-400 hover:text-white flex items-center gap-2 text-sm font-medium transition-colors mt-auto">
               Learn more <ArrowRight className="w-4 h-4" />
             </a>
           </div>
@@ -273,11 +276,11 @@ const Partners = () => {
         <div className="w-full flex justify-center opacity-50 grayscale">
           {/* Placeholder for partner logos */}
           <div className="flex gap-12 md:gap-24 items-center justify-center flex-wrap">
-            <div className="text-2xl font-bold text-white">BASE</div>
-            <div className="text-2xl font-bold text-white">OPTIMISM</div>
-            <div className="text-2xl font-bold text-white">ARBITRUM</div>
-            <div className="text-2xl font-bold text-white">POLYGON</div>
-            <div className="text-2xl font-bold text-white">ETHEREUM</div>
+            <div className="text-2xl font-bold text-white">SHOPIFY</div>
+            <div className="text-2xl font-bold text-white">SALESFORCE</div>
+            <div className="text-2xl font-bold text-white">TOAST</div>
+            <div className="text-2xl font-bold text-white">OLO</div>
+            <div className="text-2xl font-bold text-white">SQUARE</div>
           </div>
         </div>
       </div>
@@ -291,23 +294,23 @@ const CTA = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_100%,rgba(50,50,50,0.3)_0%,transparent_70%)] pointer-events-none" />
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-5xl md:text-7xl font-medium tracking-tighter text-white mb-8">
-          Unlock truly programmable money movement
+          Unlock elastic last-mile logistics
         </h2>
         <h3 className="text-3xl md:text-5xl font-light text-gray-400 mb-16">
-          One Click, Full Send
+          Zero CapEx. Infinite Scale.
         </h3>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#"
             className="px-8 py-4 bg-white text-black text-lg font-semibold rounded-full hover:scale-105 transition-transform w-full sm:w-auto"
           >
-            Book a call
+            Talk to Sales
           </a>
           <a
             href="#"
             className="px-8 py-4 bg-white/10 text-white text-lg font-semibold rounded-full hover:bg-white/20 transition-colors w-full sm:w-auto"
           >
-            Read our docs
+            Read API Docs
           </a>
         </div>
       </div>
